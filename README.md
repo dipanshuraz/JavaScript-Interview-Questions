@@ -2,6 +2,7 @@
 
 - [x] call, apply & bind method
 - [x] script - async & defer
+- [x] JavaScript Functions
 
 
 ## call, apply & bind method in JavaScript
@@ -89,3 +90,27 @@ defer downloads the file during HTML parsing and will only execute it after the 
 
 
 defer scripts are also guarenteed to executed in the order that appear in the documents.
+
+
+
+## JavaScript Functions
+
+funcitons are a kind of subroutine that performs a specific task like every other programming language,
+
+Syntax : 
+
+                                                 |---- parameters
+                                 function Hello(num) {
+                                   console.log(num)
+               explicit return -     return 1
+                                   }     |------ arguments
+                                   Hello(5)
+
+Anonymous function Syntax : 
+
+            var Hello = function(){
+              return num
+            }
+    function invocation ---Hello(5)
+
+
