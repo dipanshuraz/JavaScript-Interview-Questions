@@ -1,7 +1,7 @@
 # JavaScript-Interview-Questions
 
 - [x] call, apply & bind method
-- [ ] 
+- [x] script - async & defer
 
 
 ## call, apply & bind method in JavaScript
@@ -57,3 +57,35 @@ bind() returns a bound function which can we executed later, will have the corre
 
     let printMyName = printFullName.bind(name, "kanpur", "India")
     printMyName()
+
+
+
+
+
+## script - async & defer
+
+#### Script 
+The HTML file will be parsed until the script file is hit, at that point parsing will pause and a request is made to fetch the file (if its external). The script with them be executed before parsing is resumed.
+
+    x --parsing-- x                              x ---parsing-- x
+                   x --fetch-- x x --execute-- x 
+
+#### async 
+
+async loads the file (script) during HTML parsing asynchronously but pause when script is loaded and will start executing script after execution parsing again starts parsing.
+
+
+    x ---------parsing-------- x               x ---parsing-- x
+                   x --fetch-- x x --execute-- x 
+
+
+#### defer
+
+defer downloads the file during HTML parsing and will only execute it after the parser has completed. 
+
+
+    x -----parsing----- x x ---parsing-- x
+          x ---fetch--- x                x --execute-- x 
+
+
+defer scripts are also guarenteed to executed in the order that appear in the documents.
