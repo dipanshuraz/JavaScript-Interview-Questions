@@ -67,8 +67,8 @@ bind() returns a bound function which can we executed later, will have the corre
 #### Script 
 The HTML file will be parsed until the script file is hit, at that point parsing will pause and a request is made to fetch the file (if its external). The script with them be executed before parsing is resumed.
 
-    x --parsing-- x                              x ---parsing-- x
-                   x --fetch-- x x --execute-- x 
+    x --parsing-- x                           x ---parsing-- x
+                  x --fetch-- x x --execute-- x 
 
 #### async 
 
