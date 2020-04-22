@@ -3,6 +3,7 @@
 - [x] call, apply & bind method
 - [x] script - async & defer
 - [x] JavaScript Functions
+- [x] Polyfills - bind()
 
 
 ## call, apply & bind method in JavaScript
@@ -113,4 +114,45 @@ Anonymous function Syntax :
             }
     function invocation ---Hello(5)
 
+
+## Polyfills - bind()
+
+A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.
+
+[MDN DOCS](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
+
+
+ #### Default Bind
+
+
+    let name = {
+      firstName: 'Deepanshu',
+      lastName: 'Prajapati'
+    }
+
+    function printName() {
+      console.log(`My name is ${this.firstName} ${this.lastName}`)
+    }
+
+    let printMyName = printName.bind(name)
+
+    printMyName()
+
+
+#### bind() polyfill
+
+
+      Function.prototype.Mybind = function (...args) {
+        let obj = this
+        let params = args.slice(1)
+
+        return function (...args2) {
+          obj.apply(args[0], [...params, ...args2])
+        }
+      }
+
+
+      let printMyName2 = printName.Mybind(name)
+
+      printMyName2()
 
