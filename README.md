@@ -13,6 +13,10 @@ call() and apply() - EcmaScript 3
 <br>
 bind() - EcmaScript 5
 
+### What is Call & Apply ?
+
+Call and Apply are two important tools of advanced JavaScript programming. In JavaScript, a function always have an execution context, called as this. When the function is executed normally, like this foo() the execution context points to the global window object. If the function is a method of an object, the execution context points to that object. For example, in the code obj.foo() the execution context this points to obj.
+
 ### Uses
 
 You can use call() / apply() to invoke the function immediately. and only difference between them is "call" requires args one by one spearted but in "apply" - args can be passed as array.
@@ -61,7 +65,7 @@ bind() returns a bound function which can we executed later, will have the corre
     printMyName()
 
 
-
+#### [To Read a Amazing Story of Call, Apply & Bind](https://www.undefinednull.com/2014/06/26/explaining-call-and-apply-in-javascript-through-mr-dot-dave/)
 
 
 ## script - async & defer
