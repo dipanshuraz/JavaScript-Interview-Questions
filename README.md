@@ -5,6 +5,7 @@
 - [x] JavaScript Functions
 - [x] Polyfills - bind()
 - [x] Debouncing
+- [x] Event Bubbling, Capturing aka Trickling
 
 <hr/>
 
@@ -200,3 +201,13 @@ script
       };
 
       const debouncing = debounce(getData, 400);
+
+<hr />
+
+#### Event Bubbling, Capturing aka Trickling
+
+[JavaScript.info](https://javascript.info/bubbling-and-capturing)
+
+[Medium](https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e)
+
+[Akshay Saini](https://www.youtube.com/watch?v=aVSf0b1jVKk)
