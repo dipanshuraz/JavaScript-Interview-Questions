@@ -6,6 +6,7 @@
 - [x] Polyfills - bind()
 - [x] Debouncing
 - [x] Event Bubbling, Capturing aka Trickling
+- [x] Currying
 
 <hr/>
 
