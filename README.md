@@ -1,5 +1,9 @@
 # JavaScript-Interview-Questions
 
+## Important Links
+
+[http://khan4019.github.io/front-end-Interview-Questions/](http://khan4019.github.io/front-end-Interview-Questions/)
+
 - [x] call, apply & bind method
 - [x] script - async & defer
 - [x] JavaScript Functions
@@ -7,6 +11,7 @@
 - [x] Debouncing
 - [x] Event Bubbling, Capturing aka Trickling
 - [x] Currying
+- [x] Closures
 
 <hr/>
 
@@ -224,3 +229,9 @@ script
 [Medium](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
 
 [currying the callback - NodeJs](https://bjouhier.wordpress.com/2011/04/04/currying-the-callback-or-the-essence-of-futures/)
+
+<hr/>
+
+#### Closures
+
+[Medium](https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda)
