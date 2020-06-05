@@ -211,3 +211,13 @@ script
 [Medium](https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e)
 
 [Akshay Saini](https://www.youtube.com/watch?v=aVSf0b1jVKk)
+
+<hr/>
+
+#### Currying
+
+[Currying Akshai Saini](https://www.youtube.com/watch?v=vQcCNpuaJO8)
+
+[JavaSCript.info](https://javascript.info/currying-partials)
+
+[Medium](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
