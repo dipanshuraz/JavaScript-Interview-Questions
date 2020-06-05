@@ -222,3 +222,5 @@ script
 [JavaSCript.info](https://javascript.info/currying-partials)
 
 [Medium](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
+
+[currying the callback - NodeJs](https://bjouhier.wordpress.com/2011/04/04/currying-the-callback-or-the-essence-of-futures/)
